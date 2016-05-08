@@ -9,11 +9,7 @@
 /* Begin PBXBuildFile section */
 		A4FB171C1CDF4B2E00BC48DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB171B1CDF4B2E00BC48DA /* main.m */; };
 		A4FB171F1CDF4B2E00BC48DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB171E1CDF4B2E00BC48DA /* AppDelegate.m */; };
-		A4FB17221CDF4B2E00BC48DA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB17211CDF4B2E00BC48DA /* MasterViewController.m */; };
-		A4FB17251CDF4B2E00BC48DA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB17241CDF4B2E00BC48DA /* DetailViewController.m */; };
-		A4FB17281CDF4B2E00BC48DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FB17261CDF4B2E00BC48DA /* Main.storyboard */; };
 		A4FB172A1CDF4B2E00BC48DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FB17291CDF4B2E00BC48DA /* Assets.xcassets */; };
-		A4FB172D1CDF4B2E00BC48DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FB172B1CDF4B2E00BC48DA /* LaunchScreen.storyboard */; };
 		A4FB17381CDF4B2E00BC48DA /* EnjoyLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB17371CDF4B2E00BC48DA /* EnjoyLifeTests.m */; };
 		A4FB17431CDF4B2E00BC48DA /* EnjoyLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB17421CDF4B2E00BC48DA /* EnjoyLifeUITests.m */; };
 /* End PBXBuildFile section */
@@ -40,13 +36,7 @@
 		A4FB171B1CDF4B2E00BC48DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4FB171D1CDF4B2E00BC48DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4FB171E1CDF4B2E00BC48DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4FB17201CDF4B2E00BC48DA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		A4FB17211CDF4B2E00BC48DA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		A4FB17231CDF4B2E00BC48DA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		A4FB17241CDF4B2E00BC48DA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		A4FB17271CDF4B2E00BC48DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4FB17291CDF4B2E00BC48DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4FB172C1CDF4B2E00BC48DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4FB172E1CDF4B2E00BC48DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4FB17331CDF4B2E00BC48DA /* EnjoyLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnjoyLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FB17371CDF4B2E00BC48DA /* EnjoyLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnjoyLifeTests.m; sourceTree = "<group>"; };
@@ -106,13 +96,7 @@
 			children = (
 				A4FB171D1CDF4B2E00BC48DA /* AppDelegate.h */,
 				A4FB171E1CDF4B2E00BC48DA /* AppDelegate.m */,
-				A4FB17201CDF4B2E00BC48DA /* MasterViewController.h */,
-				A4FB17211CDF4B2E00BC48DA /* MasterViewController.m */,
-				A4FB17231CDF4B2E00BC48DA /* DetailViewController.h */,
-				A4FB17241CDF4B2E00BC48DA /* DetailViewController.m */,
-				A4FB17261CDF4B2E00BC48DA /* Main.storyboard */,
 				A4FB17291CDF4B2E00BC48DA /* Assets.xcassets */,
-				A4FB172B1CDF4B2E00BC48DA /* LaunchScreen.storyboard */,
 				A4FB172E1CDF4B2E00BC48DA /* Info.plist */,
 				A4FB171A1CDF4B2E00BC48DA /* Supporting Files */,
 			);
@@ -212,6 +196,7 @@
 				TargetAttributes = {
 					A4FB17161CDF4B2E00BC48DA = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = JS6ECCHXUK;
 					};
 					A4FB17321CDF4B2E00BC48DA = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -248,9 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4FB172D1CDF4B2E00BC48DA /* LaunchScreen.storyboard in Resources */,
 				A4FB172A1CDF4B2E00BC48DA /* Assets.xcassets in Resources */,
-				A4FB17281CDF4B2E00BC48DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4FB171F1CDF4B2E00BC48DA /* AppDelegate.m in Sources */,
-				A4FB17221CDF4B2E00BC48DA /* MasterViewController.m in Sources */,
 				A4FB171C1CDF4B2E00BC48DA /* main.m in Sources */,
-				A4FB17251CDF4B2E00BC48DA /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,25 +293,6 @@
 			targetProxy = A4FB173F1CDF4B2E00BC48DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A4FB17261CDF4B2E00BC48DA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4FB17271CDF4B2E00BC48DA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A4FB172B1CDF4B2E00BC48DA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4FB172C1CDF4B2E00BC48DA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A4FB17451CDF4B2E00BC48DA /* Debug */ = {
@@ -419,10 +381,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = EnjoyLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = EnjoyLife.com.EnjoyLife;
+				PRODUCT_BUNDLE_IDENTIFIER = EnjoyLife.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -430,10 +396,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = EnjoyLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = EnjoyLife.com.EnjoyLife;
+				PRODUCT_BUNDLE_IDENTIFIER = EnjoyLife.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
