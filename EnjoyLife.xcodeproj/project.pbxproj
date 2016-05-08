@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4FB171C1CDF4B2E00BC48DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB171B1CDF4B2E00BC48DA /* main.m */; };
+		A4FB171F1CDF4B2E00BC48DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB171E1CDF4B2E00BC48DA /* AppDelegate.m */; };
+		A4FB17221CDF4B2E00BC48DA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB17211CDF4B2E00BC48DA /* MasterViewController.m */; };
+		A4FB17251CDF4B2E00BC48DA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB17241CDF4B2E00BC48DA /* DetailViewController.m */; };
+		A4FB17281CDF4B2E00BC48DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FB17261CDF4B2E00BC48DA /* Main.storyboard */; };
+		A4FB172A1CDF4B2E00BC48DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FB17291CDF4B2E00BC48DA /* Assets.xcassets */; };
+		A4FB172D1CDF4B2E00BC48DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FB172B1CDF4B2E00BC48DA /* LaunchScreen.storyboard */; };
+		A4FB17381CDF4B2E00BC48DA /* EnjoyLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB17371CDF4B2E00BC48DA /* EnjoyLifeTests.m */; };
+		A4FB17431CDF4B2E00BC48DA /* EnjoyLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB17421CDF4B2E00BC48DA /* EnjoyLifeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4FB17341CDF4B2E00BC48DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4FB170F1CDF4B2E00BC48DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4FB17161CDF4B2E00BC48DA;
+			remoteInfo = EnjoyLife;
+		};
+		A4FB173F1CDF4B2E00BC48DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4FB170F1CDF4B2E00BC48DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4FB17161CDF4B2E00BC48DA;
+			remoteInfo = EnjoyLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4FB17171CDF4B2E00BC48DA /* EnjoyLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnjoyLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FB171B1CDF4B2E00BC48DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4FB171D1CDF4B2E00BC48DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4FB171E1CDF4B2E00BC48DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4FB17201CDF4B2E00BC48DA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A4FB17211CDF4B2E00BC48DA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A4FB17231CDF4B2E00BC48DA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A4FB17241CDF4B2E00BC48DA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A4FB17271CDF4B2E00BC48DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4FB17291CDF4B2E00BC48DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4FB172C1CDF4B2E00BC48DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4FB172E1CDF4B2E00BC48DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FB17331CDF4B2E00BC48DA /* EnjoyLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnjoyLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FB17371CDF4B2E00BC48DA /* EnjoyLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnjoyLifeTests.m; sourceTree = "<group>"; };
+		A4FB17391CDF4B2E00BC48DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FB173E1CDF4B2E00BC48DA /* EnjoyLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnjoyLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FB17421CDF4B2E00BC48DA /* EnjoyLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnjoyLifeUITests.m; sourceTree = "<group>"; };
+		A4FB17441CDF4B2E00BC48DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FB17141CDF4B2E00BC48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FB17301CDF4B2E00BC48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FB173B1CDF4B2E00BC48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4FB170E1CDF4B2E00BC48DA = {
+			isa = PBXGroup;
+			children = (
+				A4FB17191CDF4B2E00BC48DA /* EnjoyLife */,
+				A4FB17361CDF4B2E00BC48DA /* EnjoyLifeTests */,
+				A4FB17411CDF4B2E00BC48DA /* EnjoyLifeUITests */,
+				A4FB17181CDF4B2E00BC48DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FB17181CDF4B2E00BC48DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FB17171CDF4B2E00BC48DA /* EnjoyLife.app */,
+				A4FB17331CDF4B2E00BC48DA /* EnjoyLifeTests.xctest */,
+				A4FB173E1CDF4B2E00BC48DA /* EnjoyLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FB17191CDF4B2E00BC48DA /* EnjoyLife */ = {
+			isa = PBXGroup;
+			children = (
+				A4FB171D1CDF4B2E00BC48DA /* AppDelegate.h */,
+				A4FB171E1CDF4B2E00BC48DA /* AppDelegate.m */,
+				A4FB17201CDF4B2E00BC48DA /* MasterViewController.h */,
+				A4FB17211CDF4B2E00BC48DA /* MasterViewController.m */,
+				A4FB17231CDF4B2E00BC48DA /* DetailViewController.h */,
+				A4FB17241CDF4B2E00BC48DA /* DetailViewController.m */,
+				A4FB17261CDF4B2E00BC48DA /* Main.storyboard */,
+				A4FB17291CDF4B2E00BC48DA /* Assets.xcassets */,
+				A4FB172B1CDF4B2E00BC48DA /* LaunchScreen.storyboard */,
+				A4FB172E1CDF4B2E00BC48DA /* Info.plist */,
+				A4FB171A1CDF4B2E00BC48DA /* Supporting Files */,
+			);
+			path = EnjoyLife;
+			sourceTree = "<group>";
+		};
+		A4FB171A1CDF4B2E00BC48DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4FB171B1CDF4B2E00BC48DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4FB17361CDF4B2E00BC48DA /* EnjoyLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4FB17371CDF4B2E00BC48DA /* EnjoyLifeTests.m */,
+				A4FB17391CDF4B2E00BC48DA /* Info.plist */,
+			);
+			path = EnjoyLifeTests;
+			sourceTree = "<group>";
+		};
+		A4FB17411CDF4B2E00BC48DA /* EnjoyLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4FB17421CDF4B2E00BC48DA /* EnjoyLifeUITests.m */,
+				A4FB17441CDF4B2E00BC48DA /* Info.plist */,
+			);
+			path = EnjoyLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FB17161CDF4B2E00BC48DA /* EnjoyLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FB17471CDF4B2E00BC48DA /* Build configuration list for PBXNativeTarget "EnjoyLife" */;
+			buildPhases = (
+				A4FB17131CDF4B2E00BC48DA /* Sources */,
+				A4FB17141CDF4B2E00BC48DA /* Frameworks */,
+				A4FB17151CDF4B2E00BC48DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnjoyLife;
+			productName = EnjoyLife;
+			productReference = A4FB17171CDF4B2E00BC48DA /* EnjoyLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4FB17321CDF4B2E00BC48DA /* EnjoyLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FB174A1CDF4B2E00BC48DA /* Build configuration list for PBXNativeTarget "EnjoyLifeTests" */;
+			buildPhases = (
+				A4FB172F1CDF4B2E00BC48DA /* Sources */,
+				A4FB17301CDF4B2E00BC48DA /* Frameworks */,
+				A4FB17311CDF4B2E00BC48DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4FB17351CDF4B2E00BC48DA /* PBXTargetDependency */,
+			);
+			name = EnjoyLifeTests;
+			productName = EnjoyLifeTests;
+			productReference = A4FB17331CDF4B2E00BC48DA /* EnjoyLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4FB173D1CDF4B2E00BC48DA /* EnjoyLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FB174D1CDF4B2E00BC48DA /* Build configuration list for PBXNativeTarget "EnjoyLifeUITests" */;
+			buildPhases = (
+				A4FB173A1CDF4B2E00BC48DA /* Sources */,
+				A4FB173B1CDF4B2E00BC48DA /* Frameworks */,
+				A4FB173C1CDF4B2E00BC48DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4FB17401CDF4B2E00BC48DA /* PBXTargetDependency */,
+			);
+			name = EnjoyLifeUITests;
+			productName = EnjoyLifeUITests;
+			productReference = A4FB173E1CDF4B2E00BC48DA /* EnjoyLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FB170F1CDF4B2E00BC48DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = EnjoyLife.com;
+				TargetAttributes = {
+					A4FB17161CDF4B2E00BC48DA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A4FB17321CDF4B2E00BC48DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A4FB17161CDF4B2E00BC48DA;
+					};
+					A4FB173D1CDF4B2E00BC48DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A4FB17161CDF4B2E00BC48DA;
+					};
+				};
+			};
+			buildConfigurationList = A4FB17121CDF4B2E00BC48DA /* Build configuration list for PBXProject "EnjoyLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FB170E1CDF4B2E00BC48DA;
+			productRefGroup = A4FB17181CDF4B2E00BC48DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FB17161CDF4B2E00BC48DA /* EnjoyLife */,
+				A4FB17321CDF4B2E00BC48DA /* EnjoyLifeTests */,
+				A4FB173D1CDF4B2E00BC48DA /* EnjoyLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FB17151CDF4B2E00BC48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FB172D1CDF4B2E00BC48DA /* LaunchScreen.storyboard in Resources */,
+				A4FB172A1CDF4B2E00BC48DA /* Assets.xcassets in Resources */,
+				A4FB17281CDF4B2E00BC48DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FB17311CDF4B2E00BC48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FB173C1CDF4B2E00BC48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FB17131CDF4B2E00BC48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FB171F1CDF4B2E00BC48DA /* AppDelegate.m in Sources */,
+				A4FB17221CDF4B2E00BC48DA /* MasterViewController.m in Sources */,
+				A4FB171C1CDF4B2E00BC48DA /* main.m in Sources */,
+				A4FB17251CDF4B2E00BC48DA /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FB172F1CDF4B2E00BC48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FB17381CDF4B2E00BC48DA /* EnjoyLifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FB173A1CDF4B2E00BC48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FB17431CDF4B2E00BC48DA /* EnjoyLifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4FB17351CDF4B2E00BC48DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4FB17161CDF4B2E00BC48DA /* EnjoyLife */;
+			targetProxy = A4FB17341CDF4B2E00BC48DA /* PBXContainerItemProxy */;
+		};
+		A4FB17401CDF4B2E00BC48DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4FB17161CDF4B2E00BC48DA /* EnjoyLife */;
+			targetProxy = A4FB173F1CDF4B2E00BC48DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4FB17261CDF4B2E00BC48DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FB17271CDF4B2E00BC48DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4FB172B1CDF4B2E00BC48DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FB172C1CDF4B2E00BC48DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4FB17451CDF4B2E00BC48DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4FB17461CDF4B2E00BC48DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FB17481CDF4B2E00BC48DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnjoyLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EnjoyLife.com.EnjoyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4FB17491CDF4B2E00BC48DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnjoyLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EnjoyLife.com.EnjoyLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4FB174B1CDF4B2E00BC48DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnjoyLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EnjoyLife.com.EnjoyLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnjoyLife.app/EnjoyLife";
+			};
+			name = Debug;
+		};
+		A4FB174C1CDF4B2E00BC48DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnjoyLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EnjoyLife.com.EnjoyLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnjoyLife.app/EnjoyLife";
+			};
+			name = Release;
+		};
+		A4FB174E1CDF4B2E00BC48DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EnjoyLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EnjoyLife.com.EnjoyLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EnjoyLife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A4FB174F1CDF4B2E00BC48DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EnjoyLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EnjoyLife.com.EnjoyLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EnjoyLife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FB17121CDF4B2E00BC48DA /* Build configuration list for PBXProject "EnjoyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FB17451CDF4B2E00BC48DA /* Debug */,
+				A4FB17461CDF4B2E00BC48DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FB17471CDF4B2E00BC48DA /* Build configuration list for PBXNativeTarget "EnjoyLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FB17481CDF4B2E00BC48DA /* Debug */,
+				A4FB17491CDF4B2E00BC48DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4FB174A1CDF4B2E00BC48DA /* Build configuration list for PBXNativeTarget "EnjoyLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FB174B1CDF4B2E00BC48DA /* Debug */,
+				A4FB174C1CDF4B2E00BC48DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4FB174D1CDF4B2E00BC48DA /* Build configuration list for PBXNativeTarget "EnjoyLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FB174E1CDF4B2E00BC48DA /* Debug */,
+				A4FB174F1CDF4B2E00BC48DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FB170F1CDF4B2E00BC48DA /* Project object */;
+}
