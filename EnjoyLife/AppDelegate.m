@@ -23,6 +23,7 @@
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     splitViewController.delegate = self;
     return YES;
+    NSLog(@"kk");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
